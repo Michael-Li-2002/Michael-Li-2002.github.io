@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 我目前是一名数学专业本科生，现就读于北京大学数学学院。希望用个人主页记录下自己学习数学的历程以及感兴趣的研究内容。
+(Still learning...Now it's still just a template.)
 
 “尽吾志也而不能至者，可以无悔矣，其孰能讥之乎？”
 ===
