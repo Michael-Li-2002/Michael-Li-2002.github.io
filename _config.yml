@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "李佳"
-  avatar           : "profile.png"
+  avatar           : "my_windmill.jpg" #"profile.png"
   bio              : "北京大学数学科学学院大二学生"
   location         : "中国 北京"
   employer         :
