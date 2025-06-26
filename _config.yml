@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jia Li / Site Title"
+title                    : "Jia Li"
 title_separator          : "-"
 name                     : &name "Jia Li"
 description              : &description "An idiot studying math."
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "李佳"
+  name             : "李佳 Jia Li"
   avatar           : "my_windmill_square.jpg" #"profile.png"
-  bio              : "北京大学数学科学学院大二学生"
-  location         : "中国 北京"
+  bio              : "School of Mathematical Sciences, Peking University"
+  location         : "Beijing, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "jiali02math at gmail dot com"
+  email            : "jiali02maths at gmail dot com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
