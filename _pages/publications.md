@@ -17,4 +17,8 @@ author_profile: true
 
 Preprints
 ====
-1. Jia Li, Shuonan Wu. A construction of canonical nonconforming finite element spaces for elliptic equations of any order in any dimension. [arXiv:2409.06134](https://arxiv.org/abs/2409.06134)
+<!--1. Jia Li, Shuonan Wu. A construction of canonical nonconforming finite element spaces for elliptic equations of any order in any dimension. [arXiv:2409.06134](https://arxiv.org/abs/2409.06134)-->
+
+Published Papers
+====
+1. **Jia Li**, Shuonan Wu. A construction of canonical nonconforming finite element spaces for elliptic equations of any order in any dimension. *Mathematics of Computation*, accepted, 2025. [[arxiv]](https://arxiv.org/abs/2409.06134)

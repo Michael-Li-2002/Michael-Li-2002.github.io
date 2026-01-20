@@ -55,4 +55,5 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Teaching Assistant, Advanced Math C (I)  
+  2025 Fall, School of Mathematical Sciences, Peking University
