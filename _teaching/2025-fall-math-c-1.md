@@ -51,4 +51,4 @@ P277-279: 14, 27;   P286-288: 8, 13(5), 14, 17
 
 Selected Solutions & Extensions
 ======
-See [25秋高数C问题汇总](files/Advance_Math_C.pdf).
+See [25秋高数C问题汇总](/files/Advance_Math_C.pdf).
