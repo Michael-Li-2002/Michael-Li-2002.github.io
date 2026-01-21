@@ -2,7 +2,7 @@
 title: "A construction of canonical nonconforming finite element spaces for elliptic equations of any order in any dimension"
 collection: publications
 permalink: /publication/2025-08-08-nonconforming
-#excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2025-08-08
 venue: 'Mathematics of Computation'
 paperurl: 'https://arxiv.org/abs/2409.06134'
