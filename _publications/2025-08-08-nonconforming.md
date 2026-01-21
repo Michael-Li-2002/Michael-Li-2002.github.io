@@ -1,4 +1,4 @@
---- #this is yaml front matter
+--- 
 title: "A construction of canonical nonconforming finite element spaces for elliptic equations of any order in any dimension"
 collection: publications
 permalink: /publication/2025-08-08-nonconforming
