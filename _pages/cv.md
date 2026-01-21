@@ -14,7 +14,7 @@ Education
 * B.S. in Computational Mathmatics, Peking University, 2025
 * Ph.D in Computational Mathmatics, Peking University, 2030 (expected)
 
-Work experience
+<!-- Work experience
 ======
 * Summer 2015: Research Assistant
   * Github University
@@ -33,7 +33,7 @@ Skills
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+* Skill 3 -->
 
 Publications
 ======
@@ -55,5 +55,5 @@ Teaching
   
 Service and leadership
 ======
-* Teaching Assistant, Advanced Math C (I)  
-  2025 Fall, School of Mathematical Sciences, Peking University
+<!-- * Teaching Assistant, Advanced Math C (I)  
+  2025 Fall, School of Mathematical Sciences, Peking University -->
