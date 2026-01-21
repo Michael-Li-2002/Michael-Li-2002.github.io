@@ -1,5 +1,5 @@
 ---
-title: "Advanced Math C (I)"
+title: "2025 Fall Advanced Math C (I)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2025-fall-math-c-1
@@ -8,7 +8,7 @@ date: 2025-09-01
 location: "Beijing, China"
 ---
 
-Teacher: Prof. Zhengdong Wang.  
+Lecturer: Prof. Zhengdong Wang.  
 Teaching Assistants: **Jia Li**, Qiang Zhou, Bin Qin.
 
 Homework
@@ -49,6 +49,6 @@ P259: 1, 2, 3, 4, 5, 6, 7, 8, 9
 ## 第14次作业 
 P277-279: 14, 27;   P286-288: 8, 13(5), 14, 17
 
-Selected Solutions & Extensions
+Selected Solutions & Remarks
 ======
 See [25秋高数C问题汇总](/files/Advance_Math_C.pdf).
