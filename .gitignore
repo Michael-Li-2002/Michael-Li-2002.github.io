@@ -1,2 +1,22 @@
 _site/
 
+# macOS and Windows metadata
+.DS_Store
+.DS_store
+._*
+.Spotlight-V100/
+.Trashes/
+Thumbs.db
+Desktop.ini
+
+# Local Jekyll caches and dependencies
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.bundle/
+vendor/bundle/
+
+# Editor temporary files
+*.swp
+*.swo
+*~

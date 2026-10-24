@@ -1,0 +1,107 @@
+/* Keep the switch outside greedy-nav so it never enters the mobile menu. */
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.masthead__menu {
+  flex: 1;
+  min-width: 0;
+}
+
+.greedy-nav { min-width: 0; }
+
+.theme-toggle {
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid $border-color;
+  border-radius: 50%;
+  background: transparent;
+  color: $text-color;
+  cursor: pointer;
+
+  &:hover { background: $lighter-gray; }
+  &:focus-visible { outline: 2px solid $link-color; outline-offset: 3px; }
+}
+
+.theme-toggle__sun { display: none; }
+.no-js .theme-toggle { display: none; }
+
+@media screen {
+  html[data-theme="light"] { color-scheme: light; }
+
+  html[data-theme="dark"] {
+    color-scheme: dark;
+    background: #1b1f24;
+    color: #dce2e8;
+
+    body, .greedy-nav { background: #1b1f24; color: #dce2e8; }
+    a { color: #79c4dc; }
+    a:visited { color: #a8cce8; }
+    a:hover { color: #b1e3f2; }
+
+    .masthead, hr, .page__content h2, .page__meta,
+    .page__related, .archive__subtitle, .author__avatar img {
+      border-color: #414b57;
+    }
+
+    .greedy-nav a, .author__urls a, .page__footer a { color: #dce2e8; }
+    .greedy-nav a:hover, .author__urls a:hover, .page__footer a:hover { color: #79c4dc; }
+    .greedy-nav .visible-links a:before { background: #79c4dc; }
+    .greedy-nav button { background: #414b57; }
+
+    .greedy-nav .hidden-links, .author__urls {
+      background: #252b33;
+      border-color: #414b57;
+      &:before { border-color: #414b57 transparent; }
+      &:after { border-color: #252b33 transparent; }
+    }
+    .greedy-nav .hidden-links li { border-color: #414b57; }
+    .greedy-nav .hidden-links a:hover { background: #343e49; }
+    @include breakpoint($large) { .author__urls { background: transparent; } }
+
+    .page__footer { background: #252b33; color: #b1bdc9; border-color: #414b57; }
+    .page__footer .fas, .page__footer .fab,
+    .author__urls .fa, .author__urls .fas, .author__urls .fab { color: inherit; }
+    .page__meta, .page__date, .page__footer-copyright,
+    .archive__item-excerpt, figcaption { color: #b1bdc9; }
+    blockquote { border-color: #79c4dc; }
+
+    .theme-toggle { color: #dce2e8; border-color: #414b57; }
+    .theme-toggle:hover { background: #343e49; }
+    .theme-toggle__moon { display: none; }
+    .theme-toggle__sun { display: inline-block; }
+    .btn--inverse { background: #252b33; color: #dce2e8 !important; border-color: #414b57 !important; }
+    .btn--inverse:hover { background: #343e49; }
+
+    table, th, td, thead { border-color: #414b57; }
+    thead { background: #252b33; }
+    input, textarea, select { background: #252b33; color: #dce2e8; border-color: #414b57; }
+    label, legend { color: #dce2e8; }
+    input:focus, textarea:focus, select:focus { border-color: #79c4dc; }
+
+    pre, .highlight, div.highlighter-rouge, code { background: #252b33; color: #dce2e8; border-color: #414b57; }
+    div.highlighter-rouge:before, figure.highlight:before { background: #343e49; }
+    .highlight .hll, .highlight .lineno { background: #343e49; }
+    .highlight .c, .highlight .c1, .highlight .cm, .highlight .cp,
+    .highlight .cs, .highlight .w { color: #a9b4c0; }
+    .highlight .n, .highlight .na, .highlight .nb, .highlight .ni,
+    .highlight .nl, .highlight .nn, .highlight .nx, .highlight .p,
+    .highlight .o, .highlight .g, .highlight .l { color: #dce2e8; }
+    .highlight .k, .highlight .kd, .highlight .kn, .highlight .kp,
+    .highlight .kr, .highlight .kt, .highlight .ow { color: #c5a5f5; }
+    .highlight .s, .highlight .s1, .highlight .s2, .highlight .m,
+    .highlight .mi, .highlight .mf { color: #95d5b2; }
+
+    .pagination li a, .pagination--pager { color: #dce2e8; border-color: #414b57; }
+    .pagination li a:hover, .pagination--pager:hover { background: #343e49; }
+    .pagination li a.disabled, .pagination--pager.disabled { color: #a9b4c0; }
+    .notice, .notice--primary, .notice--info, .notice--warning,
+    .notice--success, .notice--danger { background: #252b33; color: #dce2e8; }
+  }
+}
+
+@media print { .theme-toggle { display: none; } }

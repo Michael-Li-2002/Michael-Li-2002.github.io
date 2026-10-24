@@ -1,0 +1,11 @@
+{% assign papers = site.publications | where: "status", include.status | sort: "date" | reverse %}
+<ol class="publication-list">
+{% for paper in papers %}
+  <li>
+    <p>{{ paper.citation }}
+    <a href="{{ paper.paperurl }}">[arXiv:{{ paper.arxiv }}]</a>
+    {% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}">[DOI]</a>{% endif %}
+    <a href="{{ paper.url | relative_url }}">[Details]</a></p>
+  </li>
+{% endfor %}
+</ol>

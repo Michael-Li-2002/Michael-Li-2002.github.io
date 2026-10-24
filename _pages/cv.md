@@ -37,9 +37,12 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+### Preprints
+{% include publication-list.html status="preprint" %}
+
+### Published Papers
+{% include publication-list.html status="published" %}
   
 Talks
 ======
