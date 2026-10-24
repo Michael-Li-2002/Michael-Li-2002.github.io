@@ -1,0 +1,48 @@
+(function () {
+  'use strict';
+  var root = document.documentElement;
+  var key = 'jia-li-color-theme';
+  var system = window.matchMedia('(prefers-color-scheme: dark)');
+  var preference;
+
+  function valid(value) {
+    return value === 'dark' || value === 'light';
+  }
+
+  try { preference = localStorage.getItem(key); } catch (error) {}
+
+  function apply() {
+    var theme = valid(preference) ? preference : (system.matches ? 'dark' : 'light');
+    root.setAttribute('data-theme', theme);
+    var button = document.querySelector('.theme-toggle');
+    if (button) {
+      button.setAttribute('aria-pressed', String(theme === 'dark'));
+      button.setAttribute('title', 'Switch to ' + (theme === 'dark' ? 'light' : 'dark') + ' mode');
+    }
+    var color = document.querySelector('meta[name="theme-color"]');
+    if (color) color.setAttribute('content', theme === 'dark' ? '#1b1f24' : '#ffffff');
+  }
+
+  // Set the theme before the stylesheet loads to avoid a light flash.
+  apply();
+  document.addEventListener('DOMContentLoaded', function () {
+    apply();
+    var button = document.querySelector('.theme-toggle');
+    if (!button) return;
+    button.addEventListener('click', function () {
+      preference = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      try { localStorage.setItem(key, preference); } catch (error) {}
+      apply();
+    });
+  });
+
+  if (system.addEventListener) system.addEventListener('change', apply);
+  else system.addListener(apply);
+
+  window.addEventListener('storage', function (event) {
+    if (event.key === key || event.key === null) {
+      preference = event.newValue;
+      apply();
+    }
+  });
+}());
