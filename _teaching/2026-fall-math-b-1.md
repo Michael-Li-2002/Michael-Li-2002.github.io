@@ -19,3 +19,4 @@ Teaching Assistants: **Jia Li**, Qiang Zhou, Yi Song.
 3. [第三次习题课：无穷小与连续性（PDF）]({{ '/files/Advance%20Math%20%28B%29/Lec_03.pdf' | relative_url }})
 4. [第四次习题课：导数与微分（PDF）]({{ '/files/Advance%20Math%20%28B%29/Lec_04.pdf' | relative_url }})
 5. [第五次习题课：不定积分与定积分（PDF）]({{ '/files/Advance%20Math%20%28B%29/Lec_05.pdf' | relative_url }})
+6. [第六次习题课：积分计算（PDF）]({{ '/files/Advance%20Math%20%28B%29/Lec_06.pdf' | relative_url }})
