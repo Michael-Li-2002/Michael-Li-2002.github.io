@@ -21,3 +21,4 @@ Teaching Assistants: **Jia Li**, Qiang Zhou, Yi Song.
 5. [第五次习题课：不定积分与定积分（PDF）]({{ '/files/Advance%20Math%20%28B%29/Lec_05.pdf' | relative_url }})
 6. [第六次习题课：积分计算（PDF）]({{ '/files/Advance%20Math%20%28B%29/Lec_06.pdf' | relative_url }})
 7. [第七次习题课：定积分应用与期中复习（PDF）]({{ '/files/Advance%20Math%20%28B%29/Lec_07.pdf' | relative_url }})
+8. [第八次习题课：微分中值与洛必达（PDF）]({{ '/files/Advance%20Math%20%28B%29/Lec_08.pdf' | relative_url }})
