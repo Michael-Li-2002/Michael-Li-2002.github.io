@@ -22,3 +22,4 @@ Teaching Assistants: **Jia Li**, Qiang Zhou, Yi Song.
 6. [第六次习题课：积分计算（PDF）]({{ '/files/Advance%20Math%20%28B%29/Lec_06.pdf' | relative_url }})
 7. [第七次习题课：定积分应用与期中复习（PDF）]({{ '/files/Advance%20Math%20%28B%29/Lec_07.pdf' | relative_url }})
 8. [第八次习题课：微分中值与洛必达（PDF）]({{ '/files/Advance%20Math%20%28B%29/Lec_08.pdf' | relative_url }})
+9. [第九次习题课：Taylor 公式、极值与凹凸性（PDF）]({{ '/files/Advance%20Math%20%28B%29/Lec_09.pdf' | relative_url }})
